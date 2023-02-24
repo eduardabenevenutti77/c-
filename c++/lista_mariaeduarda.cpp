@@ -8,5 +8,5 @@ main (){
 	cin>>num;
 	ant = num - 1;
 	su = num + 1;
-	cout<<"o antecessor de"<<num<<" é "<<ant<<" e o seu sucessor é "<<su<<".";
+	cout<<"o antecessor de "<<num<<" é "<<ant<<" e o seu sucessor é "<<su<<".";
 }
