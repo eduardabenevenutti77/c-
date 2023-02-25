@@ -1,6 +1,6 @@
 #include<iostream>
-#include <GL\glut>
+#include <GL/glut.h>
 using namespace std;
-main (){
-	system ("chcp 65001");
+void desenho (){
+	glClearColor(0.0,0.0,0.0,0.0); //deixa a janela limpa
 }
