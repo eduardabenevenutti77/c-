@@ -12,12 +12,16 @@ main (){
  
  	if(n1>n2)
  	{
- 		cout<<"o número: "<<n1<<" é maior";
+ 		cout<<"o número "<<n1<<" é maior";
 	 }
 	 else
 	 {if(n2>n1)
-	 cout<<"o número:"<<n2<<" é maior";
+	 cout<<"o número "<<n2<<" é maior";
 	 }
+	 else{
+	 	cout<<" os valores são iguais"
+	 }
+	 
 
 	cout<<"\n\n";
 }
