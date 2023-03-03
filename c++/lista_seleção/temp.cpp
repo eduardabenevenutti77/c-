@@ -12,6 +12,12 @@ main (){
 	
 	if(c)
 	{
-		cout<<"a temperatura em fahrenheit é "<<tem<<";";
+		cout<<"a temperatura em fahrenheit é "<<tem<<" f;";
+	}
+	if(c<0){
+			cout<<"a temperatura é negativa;";
+	}
+	if(10<c<38){
+		cout<<"a temperatura está entre 10C a 38C";
 	}
 }

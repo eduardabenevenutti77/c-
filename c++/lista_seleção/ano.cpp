@@ -13,7 +13,7 @@ main (){
 		cout<<"o ano "<<ano<<" é bisexto;";
 	}
 	else
-		cout<<"o ano "<<ano<<" não é ímpar;";
+		cout<<"o ano "<<ano<<" não é bisexto;";
 	
 	cout<<"\n\n";
 }
