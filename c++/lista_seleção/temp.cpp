@@ -19,7 +19,7 @@ main (){
 			cout<<"\na temperatura é negativa;";
 	}
 	if(tem>35){
-		cout<<"\na temperatura está maior que 35";
+		cout<<"\na temperatura é maior que 35";
 	}
 	else{if(10<tem<38){
 		cout<<"\na temperatura está entre 10C a 38C";
