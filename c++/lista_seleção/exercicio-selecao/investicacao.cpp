@@ -14,4 +14,11 @@ main(){
 	if(s){
 		c = contagem + 1;
 	}
+	
+	cout<<"é parente ou mora perto da vitíma? s/n";
+	cin>>contagem;
+	if(s){
+		c = contagem + 1;
+	}
+	
 }

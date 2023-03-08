@@ -1,6 +1,8 @@
 #include<iostream>
 using namespace std;
-int r,altura,volume;
+#define PI 3.14;
+int r, altura;
+double volume;
 main (){
 	system("chcp 65001");
 	system("cls");
@@ -9,11 +11,9 @@ main (){
 	cin>>r;
 	cout<<"informe o valor da altura:";
 	cin>>altura;
-	volume=3.14*(r**2)*altura;
-	if(volume)
-	{
-		cout<<"a altura da lata de óleo é "<<altura<<", e ela tem o raio de "<<r<<" cm";
-		cout<<"portanto, o volume é "<<volume<<"";
+	volume = r * r * PI * altura;
+	if (volume){
+		cout<<"o volume é "<<volume<<" cm.";
 	}
 	cout<<"\n\n";
 }
