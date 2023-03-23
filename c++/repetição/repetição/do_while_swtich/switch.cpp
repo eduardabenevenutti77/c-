@@ -1,28 +1,35 @@
 #include<iostream>
 using namespace std;
-float nt1,nt2,nt3,nt4,media,notas;
+float acumula,media,notas,i;
 main (){
-	//for (notas>=0;notas<=10;i++)
+	for (notas>=0;notas<=4;notas++)
+	{
 	do{
 		system("chcp 65001");
 		
 		cout<<"informe a primeira nota:";
-		cin>>nt1;
+		cin>>notas;
 		
 		cout<<"informe a primeira nota 2:";
-		cin>>nt2;
+		cin>>notas;
 		
 		cout<<"informe a primeira nota 3:";
-		cin>>nt3;
+		cin>>notas;
 		
 		cout<<"informe a primeira nota 4:";
-		cin>>nt4;
-				
+		cin>>notas;
+		
+		if((notas<0) || (notas>10))
+		{
+			cout<<"\n\n informe novamente da "<<notas<<" nota: ";
+			cin>>notas;
+		}
 		
 	} while((notas>0)||(notas<=10));
 	
-	notas = nt1 + nt2 + nt3 +nt4/4;
-	cin>>notas;
-	cout<<"a sua média é "<<notas<<".";
+	acumula += notas; 
+	media = acumula/4;
+}
+	cout<<"a sua média é "<<media<<".";
 	cout<<"\n\n\n\n\n";
 }

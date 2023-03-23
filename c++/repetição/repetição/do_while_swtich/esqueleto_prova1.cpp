@@ -15,11 +15,15 @@ Data: <<versão 01 ou versão_final>> :___________________________
 #include <iomanip>
 #include <conio.h> // Para usar o getch();
 
-int idade, acumula, media;
+int idade, acumula, media,i;
 using namespace std;
+
 main ()
 {  
+	system("chcp 65001");
    for(int i=1; i<=3; i++)
+   {
+   
    do{
    	    cout<<"\n\n digite a idade da "<<i<<" pessoa: ";
    	    cin>> idade;
@@ -32,5 +36,8 @@ main ()
 	   }
 } while((idade<0) || (idade>145));
 	     acumula += idade;
+	     media=acumula/i;
+	}
+	     cout<<"a média das idades: "<<media<<"";
 }
-//media=acumula/i;
+
