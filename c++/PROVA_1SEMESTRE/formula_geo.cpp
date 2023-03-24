@@ -20,10 +20,11 @@ using namespace std;
 main ()
 {
    system("chcp 65001");// para usar acentos
+   setlocale(LC_ALL, "portuguese");//usar acentos na versão antiga
    cout << fixed << setprecision(2);// deixar o float com 2 casas decimais
    system ("cls"); // limpar a tela
    system ("color 2"); // usar a cor verde
-   cout<<"ATIVIDADE AVALIATIVA DE INTRODUÃ‡ÃƒO A PROGRAMAÃ‡ÃƒO \n";
+   cout<<"ATIVIDADE AVALIATIVA DE INTRODUÃ‡ÃƒO A PROGRAMAÇÃO \n";
    cout<<"INDICADORES: \n";
    cout<<"1. Realiza operaÃ§Ãµes matemÃ¡ticas de acordo com os fundamentos e o contexto apresentado.\n";
    cout<<"2. Utiliza adequadamente os tipos de variÃ¡veis em algoritmos de acordo com o contexto.\n";
@@ -37,20 +38,20 @@ main ()
    system ("cls");
    //system ("color, 9");
    //textbackground(1);
-   cout<<"\n FORMULAS GEOMETRICAS";
-   cout<<"\n [1] QuestÃ£o 01 - <<CALCULE A FÃ“RMULA DO RETÃ‚NGULO>>";
-   cout<<"\n [2] QuestÃ£o 02 - <<CALCULE A FÃ“RMULA DO QUADRADO >>";
-   cout<<"\n [3] QuestÃ£o 03 - <<CALCULE A FÃ“RMULA DO CÃRCULO >>";
-   cout<<"\n [4] QuestÃ£o 04 - <<CALCULE A FÃ“RMULA DO TRIÃ‚NGULO >>";
-   cout<<"\n [5] QuestÃ£o 05 - <<CALCULE A FÃ“RMULA DO TRAPÃ‰ZIO >>";
-   cout<<"\n [6] FIM <<BÃ´nus >>.";
-   cout<<"\n\n\n\n ESCOLHA UMA OPÃ‡ÃƒO --> ";
+   cout<<"\n FÓRMULAS GEOMÉTRICAS";
+   cout<<"\n [1] Questão 01 - <<CALCULE A FÓRMULA DO RETÂNGULO>>";
+   cout<<"\n [2] Questão 02 - <<CALCULE A FÓRMULA DO QUADRADO >>";
+   cout<<"\n [3] Questão 03 - <<CALCULE A FÓMULA DO CÍRCULO >>";
+   cout<<"\n [4] Questão 04 - <<CALCULE A FÓRMULA DO TRÂNGULO >>";
+   cout<<"\n [5] Questão 05 - <<CALCULE A FÓRMULA DO TRAPÉZIO >>";
+   cout<<"\n [6] FIM <<Bônus >>.";
+   cout<<"\n\n\n\n ESCOLHA UMA OPÇÃO --> ";
    cin>>op;
   switch (op)
   {
     case  1:{
              system ("color B");
-             cout<<"\n RetÃ¢ngulo: ";
+             cout<<"\n Retângulo: ";
              cout<<" \n Informe o valor da base: ";
              cin>>base;
              cout<<"\n Informe o valor da altura: ";
@@ -58,8 +59,8 @@ main ()
              
              p = (2*base)+(2*altura);
              a = base*altura;
-             cout<<"o perimetro Ã© = "<<p<<" cm.";
-             cout<<"\na Ã¡rea Ã© = "<<a<<" cm.";
+             cout<<"o perimetro é = "<<p<<" cm.";
+             cout<<"\na área é = "<<a<<" cm.";
              getch(); // espera digitar algo
              break;
            }
@@ -70,27 +71,27 @@ main ()
              cin>>lado;
              p = lado*4;
              a = lado *2;
-             cout<<"o perimetro Ã© = "<<p<<" cm.";
-             cout<<"\na Ã¡rea Ã© = "<<a<<" cm.";
+             cout<<"o perimetro é = "<<p<<" cm.";
+             cout<<"\na área é = "<<a<<" cm.";
              getch(); //ou system("pause");
              break;
            }
     case 3:{
              system ("color 7");
-             cout<<"\n CÃ­rculo: ";
+             cout<<"\n Círculo: ";
              cout<<" \n Informe o valor do raio: ";
              cin>>raio;
              c = 2 * 3.14 * raio;
              a = 3.14 * raio * 2;
-             cout<<"a circunferencia Ã© = "<<c<<" cm.";
-             cout<<"\na Ã¡rea Ã© = "<<a<<" cm.";
+             cout<<"a circunferencia é = "<<c<<" cm.";
+             cout<<"\na área é = "<<a<<" cm.";
              
              getch(); //ou system("pause");
              break;
            }
     case 4:{
              system ("color E");
-             cout<<"\n TriÃ¢ngulo: ";
+             cout<<"\n Triângulo: ";
              cout<<" \n Informe o valor do lado A: ";
              cin>>ldA;
              cout<<"\n Informe o valor do lado B: ";
@@ -103,14 +104,14 @@ main ()
              cin>>base;
              p = ldA+ldB+ldC;
              a = 0.5*altura*base;
-             cout<<"o perimetro Ã© = "<<p<<" cm.";
-             cout<<"\na Ã¡rea Ã© = "<<a<<" cm.";
+             cout<<"o perimetro é = "<<p<<" cm.";
+             cout<<"\na área é = "<<a<<" cm.";
              getch(); //ou system("pause");
              break;
            }
     case 5:{
              system ("color C");
-             cout<<"\n TrapÃ©zio";
+             cout<<"\n Trapézio";
              cout<<" \n Informe o valor do lado A:";
              cin>>ldA;
              
@@ -119,7 +120,7 @@ main ()
            }
     case 6:{
              system ("color D");
-             cout<<"\n\tGEFUNDEN (1813)\n\nIch ging im Walde\nSo fÃ¼r mich hin,\nUnd nichts zu suchen,\nDas war mein Sinn.\n\nIm Schatten sah ich\nEin BlÃ¼mchen stehn,\nWie Sterne leuchtend,\nWie Ã„uglein schÃ¶n.\nIch wollt es brechen,nDa sagt es fein:\nSoll ich zum Welken\nGebrochen sein?\n\nIch grubâ€™s mit allen\nDen WÃ¼rzlein aus.\nZum Garten trug ichâ€™s\nAm hÃ¼bschen Haus.\n\n\n\tJohan Wolfang von Goethe ";
+             cout<<"\n\tGEFUNDEN (1813)\n\nIch ging im Walde\nSo für mich hin,\nUnd nichts zu suchen,\nDas war mein Sinn.\n\nIm Schatten sah ich\nEin Blümchen stehn,\nWie Sterne leuchtend,\nWie Äuglein schön.\nIch wollt es brechen,nDa sagt es fein:\nSoll ich zum Welken\nGebrochen sein?\n\nIch grub’s mit allen\nDen Würzlein aus.\nZum Garten trug ich’s\nAm hübschen Haus.\n\n\n\tJohan Wolfang von Goethe ";
              getch();
              break;
             }
