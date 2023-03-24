@@ -26,12 +26,12 @@ main ()
    system ("color 2"); // usar a cor verde
    cout<<"ATIVIDADE AVALIATIVA DE INTRODUÃ‡ÃƒO A PROGRAMAÇÃO \n";
    cout<<"INDICADORES: \n";
-   cout<<"1. Realiza operaÃ§Ãµes matemÃ¡ticas de acordo com os fundamentos e o contexto apresentado.\n";
-   cout<<"2. Utiliza adequadamente os tipos de variÃ¡veis em algoritmos de acordo com o contexto.\n";
-   cout<<"3. Utiliza operaÃ§Ãµes aritmÃ©ticas em programas.\n";
+   cout<<"1. Realiza operações matemáticas de acordo com os fundamentos e o contexto apresentado.\n";
+   cout<<"2. Utiliza adequadamente os tipos de variáveis em algoritmos de acordo com o contexto.\n";
+   cout<<"3. Utiliza operações aritméticas em programas.\n";
    cout<<"4. Utiliza os comandos de leitura e escrita em algoritmos de acordo com o contexto.\n";
    cout<<"5. Utiliza as estruturas condicionais em algoritmos de acordo com o contexto.\n";
-   cout<<"6. Utiliza as estruturas de repetiÃ§Ã£o em algoritmos de acordo com o contexto. \n";
+   cout<<"6. Utiliza as estruturas de repetição em algoritmos de acordo com o contexto. \n";
    
    
    do{
@@ -56,7 +56,7 @@ main ()
              cin>>base;
              cout<<"\n Informe o valor da altura: ";
              cin>>altura;
-             
+             if ((base<0)& (altura<0))
              p = (2*base)+(2*altura);
              a = base*altura;
              cout<<"o perimetro é = "<<p<<" cm.";
@@ -127,13 +127,14 @@ main ()
              a = 0.5 * altura *(base+ldB);
              
              cout<<"o perimetro é ="<<p<<" cm.";
-             cout<<"a base é ="<<a<<" cm."
+             cout<<"a base é ="<<a<<" cm.";
              getch(); //ou system("pause");
              break;
            }
     case 6:{
              system ("color D");
-             cout<<"\n\tGEFUNDEN (1813)\n\nIch ging im Walde\nSo für mich hin,\nUnd nichts zu suchen,\nDas war mein Sinn.\n\nIm Schatten sah ich\nEin Blümchen stehn,\nWie Sterne leuchtend,\nWie Äuglein schön.\nIch wollt es brechen,nDa sagt es fein:\nSoll ich zum Welken\nGebrochen sein?\n\nIch grub’s mit allen\nDen Würzlein aus.\nZum Garten trug ich’s\nAm hübschen Haus.\n\n\n\tJohan Wolfang von Goethe ";
+             system("background color 8");
+             cout<<"\n\tGEFUNDEN (1813)\n\nIch ging im Walde\nSo für mich hin,\nUnd nichts zu suchen,\nDas war mein Sinn.\n\nIm Schatten sah ich\nEin Blümchen stehn,\nWie Sterne leuchtend,\nWie Äuglein schön.\nIch wollt es brechen,\nDa sagt es fein:\nSoll ich zum Welken\nGebrochen sein?\n\nIch grub’s mit allen\nDen Würzlein aus.\nZum Garten trug ich’s\nAm hübschen Haus.\n\n\n\tJohan Wolfang von Goethe ";
              getch();
              break;
             }
