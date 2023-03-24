@@ -114,7 +114,20 @@ main ()
              cout<<"\n Trapézio";
              cout<<" \n Informe o valor do lado A:";
              cin>>ldA;
+             cout<<"\n Informe o valor do lado B: ";
+             cin>>ldB;
+             cout<<"\n Informe o valor do lado C: ";
+             cin>>ldC;
+             cout<<"\n Informe o tamanho da base: ";
+             cin>>base;
+             cout<<"\n Informe o tamanho da altura: ";
+             cin>>altura;
              
+             p = ldA+ldB+ldC+base;
+             a = 0.5 * altura *(base+ldB);
+             
+             cout<<"o perimetro é ="<<p<<" cm.";
+             cout<<"a base é ="<<a<<" cm."
              getch(); //ou system("pause");
              break;
            }
@@ -125,7 +138,7 @@ main ()
              break;
             }
    default: {
-               cout<<"\n INFORMOU UMA OPÃ‡ÃƒO ERRADA.";
+               cout<<"\n INFORMOU UMA OPÇÃO ERRADA.";
                getch();
                break;
             }
