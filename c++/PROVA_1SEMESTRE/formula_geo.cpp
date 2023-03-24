@@ -3,7 +3,7 @@ Faculdade SENAC - Joinville - SC
 Profª: Cláudia Werlich
 Atividade Avaliativa de Introdução a Programação de Computadores
 
-Insira Seu nome completo aqui:__________________________________
+Insira Seu nome completo aqui:Maria Eduarda Benevenutti
 
 Data: <<versão 01 ou versão_final>> :___________________________ 
 (Altere a data conforme a entrega)
@@ -15,7 +15,7 @@ Data: <<versão 01 ou versão_final>> :___________________________
 #include <iomanip>
 #include <conio.h> // Para usar o getch();
 
-int op,base,altura,p,a,b,lado,di,c,raio;
+int op,base,altura,p,a,b,lado,di,c,raio,ldA,ldB,ldC;
 using namespace std;
 main ()
 {
@@ -97,13 +97,23 @@ main ()
              cin>>ldB;
              cout<<"\n Informe o valor do lado C: ";
              cin>>ldC;
+             cout<<"\n Informe a altura: ";
+             cin>>altura;
+             cout<<"\n Informe a base: ";
+             cin>>base;
+             p = ldA+ldB+ldC;
+             a = 0.5*altura*base;
+             cout<<"o perimetro é = "<<p<<" cm.";
+             cout<<"\na área é = "<<a<<" cm.";
              getch(); //ou system("pause");
              break;
            }
     case 5:{
              system ("color C");
              cout<<"\n Trapézio";
-             cout<<" \n APERTE UMA TECLA";
+             cout<<" \n Informe o valor do lado A:";
+             cin>>ldA;
+             
              getch(); //ou system("pause");
              break;
            }
