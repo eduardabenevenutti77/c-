@@ -43,7 +43,7 @@ main ()
    cout<<"\n [3] Questão 03 - <<CALCULE A FÓRMULA DO CÍRCULO >>";
    cout<<"\n [4] Questão 04 - <<CALCULE A FÓRMULA DO TRIÂNGULO >>";
    cout<<"\n [5] Questão 05 - <<CALCULE A FÓRMULA DO TRAPÉZIO >>";
-   cout<<"\n [6] FIM <<Bônus >>.";
+   cout<<"\n [6] FIM <<GEFUNDEN>>.";
    cout<<"\n\n\n\n ESCOLHA UMA OPÇÃO --> ";
    cin>>op;
   switch (op)
@@ -172,7 +172,7 @@ main ()
            }
     case 6:{
              system ("color D");
-             cout<<"\n\tGEFUNDEN (1813)\n\nIch ging im Walde\nSo für mich hin,\nUnd nichts zu suchen,\nDas war mein Sinn.\n\nIm Schatten sah ich\nEin Blümchen stehn,\nWie Sterne leuchtend,\nWie Äuglein schön.\nIch wollt es brechen,nDa sagt es fein:\nSoll ich zum Welken\nGebrochen sein?\n\nIch grub’s mit allen\nDen Würzlein aus.\nZum Garten trug ich’s\nAm hübschen Haus.\n\n\n\tJohan Wolfang von Goethe ";
+             cout<<"\n\tGEFUNDEN\n\nIch ging im Walde\nSo für mich hin,\nUnd nichts zu suchen,\nDas war mein Sinn.\n\nIm Schatten sah ich\nEin Blümchen stehn,\nWie Sterne leuchtend,\nWie Äuglein schön.\nIch wollt es brechen,nDa sagt es fein:\nSoll ich zum Welken\nGebrochen sein?\n\nIch grub’s mit allen\nDen Würzlein aus.\nZum Garten trug ich’s\nAm hübschen Haus.\n\n\n\tJohan Wolfang von Goethe ";
              getch();
              break;
             }

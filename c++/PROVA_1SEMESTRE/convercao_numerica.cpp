@@ -39,7 +39,7 @@ main ()
    cout<<"\n\t\tUnidades de medidadas";
    cout<<"\n [1] Questão 01 - << Converta o valor para massa>>";
    cout<<"\n [2] Questão 02 - << Converta o valor para área>>";
-   cout<<"\n [3] FIM <<Bônus >>.";
+   cout<<"\n [3] FIM <<HEIDENRÖSLEIN>>.";
    cout<<"\n\n\n\n ESCOLHA UMA OPÇÃO --> ";
    cin>>op;
   switch (op)
