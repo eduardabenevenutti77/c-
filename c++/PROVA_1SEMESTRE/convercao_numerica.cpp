@@ -38,7 +38,7 @@ main ()
    system ("cls");
    cout<<"\n\t\tUnidades de medidadas";
    cout<<"\n [1] Questão 01 - << Converta o valor para massa>>";
-   cout<<"\n [2] Questão 02 - << Converta o valor para comprimento>>";
+   cout<<"\n [2] Questão 02 - << Converta o valor para área>>";
    cout<<"\n [3] FIM <<Bônus >>.";
    cout<<"\n\n\n\n ESCOLHA UMA OPÇÃO --> ";
    cin>>op;
@@ -77,31 +77,35 @@ main ()
            }
     case 2:{
              system ("color 3");
-             cout<<"\n Converta o valor para comprimento";
+             cout<<"\n Converta o valor para área";
+             
+             cout<<"\n Informe o valor que deseja converter km² e hm²: ";
+             cin>>t1;
+             c = t1*100;
+             cout<<"\n\t • o valor é: "<<c<<" hm;\n";
+             
+             cout<<"\n converta "<<c<<" para dam:\n ";
+             c2 = c*100;
+             cout<<"\n \t • o valor é: "<<c2<<" dam;\n";
+             
+             cout<<"\n converta "<<c2<<" para m:\n ";
+             c3 = c2*100;
+             cout<<"\n\t • o valor é: "<<c3<<" m;\n";
+             
+             cout<<"\n converta "<<c3<<" para dm:\n";
+             c4 = c3*100;
+             cout<<"\n\t • o valor é: "<<c4<<" dm;\n";
+             
+             cout<<"\n converta "<<c4<<" para cm:\n";
+             c5 = c4*100;
+             cout<<"\n\t • o valor é: "<<c5<<" cm;\n";
+             
+             cout<<"\n converta "<<c5<<" para mm:\n";
+             c6 = c5*100;
+             cout<<"\n\t • o valor "<<c6<<" mm;";
              getch(); //ou system("pause");
              break;
            }
-    //case 3:{
-             //system ("color 3");
-             //cout<<"\n OpÃ§Ã£o 03";
-             //cout<<" \n APERTE UMA TECLA";
-             //getch(); //ou system("pause");
-             //break;
-           //}
-    //case 4:{
-             //system ("color 3");
-             //cout<<"\n OpÃ§Ã£o 04";
-             //cout<<" \n APERTE UMA TECLA";
-             //getch(); //ou system("pause");
-             //break;
-           //}
-    //case 5:{
-             //system ("color 3");
-             //cout<<"\n OpÃ§Ã£o 02";
-             //cout<<" \n APERTE UMA TECLA";
-             //getch(); //ou system("pause");
-             //break;
-           //}
     case 3:{
              system ("color E");
              cout<<"\n\tHEIDENRÖSLEIN\n\nSah ein Knab’ ein Röslein stehn,\nRöslein auf der Heiden,\nWar so jung und morgenschön,\nLief er schnell es nah zu sehn,\nSah’s mit vielen Freuden.\nRöslein, Röslein, Röslein rot,\nRöslein auf der Heiden.\n\nKnabe sprach: “Ich breche dich,\nRöslein auf der Heiden.”\nRöslein sprach: “Ich steche dich,\nDass du ewig denkst an mich,\nUnd ich will’s nicht leiden”.\nRöslein, Röslein, Röslein rot,\nRöslein auf der Heiden\n\nUnd der wilde Knabe brach\n‘s Röslein auf der Heiden.\nRöslein wehrte sich und stach,\nHalf ihm doch kein Weh und Ach,\nMusst es eben leiden.\nRöslein, Röslein, Röslein rot,\nRöslein auf der Heiden.\n\nJohan Wolfang von Goethe";
